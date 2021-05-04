@@ -1,0 +1,25 @@
+int main() {
+	int vis[23], pri[23], pos, iter, temp, cnt = 0;
+	for (pos = 0; pos < 23; pos++) {
+		vis[pos] = 0; pri[pos] = 0;
+	}
+	vis[0] = 1; vis[1] = 1;
+	for (pos = 2; pos < 23; pos++) {
+		if (vis[pos] == 0) {
+			pri[cnt] = pos; cnt++;
+		}
+		for (iter = 0; iter < cnt; iter++) {
+			if (pos * pri[iter] >= 23) {
+				break;
+			}
+			temp = pos * pri[iter];
+			vis[temp] = 1;
+			iter = pos % pri[iter];
+			if (iter == 0) {
+				break;
+			}
+		}
+	}
+}
+
+
