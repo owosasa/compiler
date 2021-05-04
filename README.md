@@ -73,7 +73,7 @@ int main() {
 
 示例程序（递归阶乘）生成汇编并在DOSbox下运行结果如下图所示：
 
-![](https://cdn.luogu.com.cn/upload/image_hosting/27slq4m2.png)
+![](https://cdn.luogu.com.cn/upload/image_hosting/mravecq9.png)
 
-运行结束后 $$arr$$ 数组的值（即1~7的阶乘）分别为：01H，02H，06H，18H（24D），78H（120D），02D0H（720D），13B0H（5040）。
+运行结束后数组arr的值（即1~7的阶乘）分别为：01H，02H，06H，18H（24D），78H（120D），02D0H（720D），13B0H（5040）。
 
