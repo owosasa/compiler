@@ -19,16 +19,24 @@
 ```C
 int main() {
 	int vis[33], pri[33], pos, iter, temp, cnt = 0;
-	for (pos = 0; pos < 33; pos++) { vis[pos] = 0; pri[pos] = 0; }
+	for (pos = 0; pos < 33; pos++) { 
+		vis[pos] = 0; pri[pos] = 0; 
+	}
 	vis[0] = 1; vis[1] = 1;
 	for (pos = 2; pos < 33; pos++) {
-		if (vis[pos] == 0) { pri[cnt] = pos; cnt++; }
+		if (vis[pos] == 0) { 
+			pri[cnt] = pos; cnt++; 
+		}
 		for (iter = 0; iter < cnt; iter++) {
-			if (pos * pri[iter] > 33) { break; }
+			if (pos * pri[iter] > 33) { 
+				break; 
+			}
 			temp = pos * pri[iter];
 			vis[temp] = 1;
 			temp = pos % pri[iter];
-			if (temp == 0) { break;	}
+			if (temp == 0) { 
+				break;	
+			}
 		}
 	}
 }
