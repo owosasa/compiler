@@ -75,5 +75,5 @@ int main() {
 
 ![](https://cdn.luogu.com.cn/upload/image_hosting/mravecq9.png)
 
-运行结束后数组arr的值（即1~7的阶乘）分别为：01H，02H，06H，18H（24D），78H（120D），02D0H（720D），13B0H（5040）。
+运行结束后数组 arr 的值（即1~7的阶乘）分别为：01H，02H，06H，18H（24D），78H（120D），02D0H（720D），13B0H（5040）。
 
