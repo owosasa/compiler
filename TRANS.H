@@ -1,7 +1,7 @@
 #pragma once
 #ifndef _TRANS_H_
 #define _TRANS_H_
-
+ 
 #include "GLOBALS.H"
 #include "PARSE.H"
 

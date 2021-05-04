@@ -30,7 +30,7 @@ static void funParaASM(quaternion *);
 static void arrAssignASM(quaternion *);
 static void incASM(quaternion *);
 static void decASM(quaternion *);
-
+ 
 static char empty[MAXTOKENLEN] = { '\0' };
 int AXFLAG, BXFLAG, CXFLAG, DXFLAG, SIFLAG;
 char functionTable[MAXTOKENLEN][MAXTOKENLEN]; int functionTableInd;

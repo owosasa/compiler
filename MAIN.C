@@ -5,7 +5,7 @@
 #include "TRANS.H"
 #include "OPTIMIZE.H"
 #include "ASSEM.H"
-
+ 
 int main(int argc, char *argv[]) {
 #ifdef IFMSS
 	SCAN(argv[1]);

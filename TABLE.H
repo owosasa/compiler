@@ -1,7 +1,7 @@
 #pragma once
 #ifndef _TABLE_H_
 #define _TABLE_H_
-
+ 
 #pragma once
 #include "GLOBALS.H"
 #include "TRANS.H"

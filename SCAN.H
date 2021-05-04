@@ -2,7 +2,7 @@
 #ifndef _SCAN_H_
 #define _SCAN_H_
 #include "GLOBALS.H"
-
+ 
 typedef enum {
 	/*    int  float  char  double  void  main  if  else  while  printf  scanf  for  */
 	INT = 255, FLOAT, CHAR, DOUBLE, VOID, MAIN, IF, ELSE, WHILE, PRINTF, SCANF, FOR,

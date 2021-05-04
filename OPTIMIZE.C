@@ -1,6 +1,6 @@
 #pragma once
 #include "OPTIMIZE.H"
-
+ 
 static void startOptimize(quaternion *);
 static void printOptimize(quaternion *);
 

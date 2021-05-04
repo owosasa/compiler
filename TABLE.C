@@ -1,6 +1,6 @@
 #pragma once
 #include "TABLE.H"
-
+ 
 static int hashCode(char[]);
 static void traverse(Node *, void(*pre)(Node *), void(*suf)(Node *));
 static void NULLFUNC(Node *);

@@ -1,7 +1,7 @@
 #pragma once
 #include "SCAN.H"
 static char DEBUGPATH[] = "..\\compiler\\What\\DEBUG\\DEMO.txt";
-
+ 
 static void initTokenTypeMap();
 static void readNextLine(FILE *);
 static Token getToken();

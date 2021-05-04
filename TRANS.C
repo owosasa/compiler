@@ -1,6 +1,6 @@
 #pragma once
 #include "TRANS.H"
-
+ 
 static void transStart(Node *);
 static void transMain(Node *);
 static void transDefinePara(Node *);

@@ -1,17 +1,14 @@
+int Function(int A) {
+	int res = A, next = A - 1, sub = 1;
+	if (next > 0) {
+		sub = Function(next); 
+	}
+	res = res * sub;
+	return res;
+}
 int main() {
-	int vis[33], pri[33], pos, iter, temp, cnt = 0;
-	for (pos = 0; pos < 33; pos++) { vis[pos] = 0; pri[pos] = 0; }
-	vis[0] = 1; vis[1] = 1;
-	for (pos = 2; pos < 33; pos++) {
-		if (vis[pos] == 0) { pri[cnt] = pos; cnt++;	}
-		for (iter = 0; iter < cnt; iter++) {
-			if (pos * pri[iter] > 33) {	break; }
-			temp = pos * pri[iter];
-			vis[temp] = 1;
-			temp = pos % pri[iter];
-			if (temp == 0) { break;	}
-		}
+	int arr[7] = { 1,2,3,4,5,6,7 }, pos;
+	for (pos = 0; pos < 7; pos++) {
+		arr[pos] = Function(arr[pos]);
 	}
 }
-
-
